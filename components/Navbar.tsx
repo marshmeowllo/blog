@@ -144,7 +144,7 @@ export default function Navbar() {
                                     links.map((link, index) => {
                                         const { title, href } = link;
                                         return <Link key={`l_${index}`} href={href}>
-                                            <motion.p
+                                            <motion.h1
                                                 className="text-yblack pr-9"
                                                 onMouseOver={() => { setSelectedLink({ isActive: true, index }) }}
                                                 onMouseLeave={() => { setSelectedLink({ isActive: false, index }) }}
@@ -152,7 +152,7 @@ export default function Navbar() {
                                                 variants={blur}
                                                 animate={selectedLink.isActive && selectedLink.index != index ? "open" : "closed"}>
                                                 {getChars(title)}
-                                            </motion.p>
+                                            </motion.h1>
                                         </Link>
                                     })
 

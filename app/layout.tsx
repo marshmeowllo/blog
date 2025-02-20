@@ -7,32 +7,32 @@ const eudoxus = localFont({
   variable: '--font-eudoxus',
   src: [
     {
-      path: './Eudoxus-Sans-font/EudoxusSans-ExtraLight.woff2',
+      path: '../public/Eudoxus-Sans-font/EudoxusSans-ExtraLight.woff2',
       weight: '200',
       style: 'normal',
     },
     {
-      path: './Eudoxus-Sans-font/EudoxusSans-Light.woff2',
+      path: '../public/Eudoxus-Sans-font/EudoxusSans-Light.woff2',
       weight: '300',
       style: 'normal',
     },
     {
-      path: './Eudoxus-Sans-font/EudoxusSans-Regular.woff2',
+      path: '../public/Eudoxus-Sans-font/EudoxusSans-Regular.woff2',
       weight: '400',
       style: 'normal',
     },
     {
-      path: './Eudoxus-Sans-font/EudoxusSans-Medium.woff2',
+      path: '../public/Eudoxus-Sans-font/EudoxusSans-Medium.woff2',
       weight: '500',
       style: 'normal',
     },
     {
-      path: './Eudoxus-Sans-font/EudoxusSans-Bold.woff2',
+      path: '../public/Eudoxus-Sans-font/EudoxusSans-Bold.woff2',
       weight: '700',
       style: 'normal',
     },
     {
-      path: './Eudoxus-Sans-font/EudoxusSans-ExtraBold.woff2',
+      path: '../public/Eudoxus-Sans-font/EudoxusSans-ExtraBold.woff2',
       weight: '800',
       style: 'normal',
     },
